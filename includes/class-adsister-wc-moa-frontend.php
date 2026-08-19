@@ -90,9 +90,9 @@ class Adsister_WC_MOA_Frontend {
 
 		?>
 		<div class="adsister-wc-moa-checkout-order-notice" data-is-met="<?php echo $is_met ? '1' : '0'; ?>" style="<?php echo $is_met ? 'display:none;' : ''; ?>">
-			<div class="woocommerce-error" role="alert" style="margin-bottom: 15px;">
-				<?php echo wp_kses_post( $message ); ?>
-			</div>
+			<ul class="woocommerce-error" role="alert" style="margin-bottom: 15px;">
+				<li><?php echo wp_kses_post( $message ); ?></li>
+			</ul>
 		</div>
 		<?php
 	}

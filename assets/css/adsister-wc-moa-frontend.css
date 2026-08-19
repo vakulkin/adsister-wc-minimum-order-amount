@@ -1,6 +1,20 @@
 /**
- * Adsister WooCommerce Minimum Order Amount - Checkout Button Styles
+ * Adsister WooCommerce Minimum Order Amount - Frontend Styles
  */
+
+/* Notice text color styling: Ensure clean white / theme-inherited text instead of red */
+.adsister-wc-moa-checkout-order-notice .woocommerce-error,
+.adsister-wc-moa-checkout-order-notice .woocommerce-error li,
+.adsister-wc-moa-checkout-order-notice .woocommerce-error .amount,
+.adsister-wc-moa-checkout-order-notice .woocommerce-error strong,
+.adsister-wc-moa-checkout-order-notice .woocommerce-error span {
+	color: var(--notices-warning-color, #ffffff) !important;
+}
+
+.adsister-wc-moa-checkout-order-notice .woocommerce-error a {
+	color: var(--notices-warning-color, #ffffff) !important;
+	text-decoration: underline;
+}
 
 /* Disabled Final Checkout Place Order Button */
 #place_order.adsister-wc-moa-btn-disabled,
