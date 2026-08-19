@@ -1,0 +1,86 @@
+# Copyright (C) 2026 LuxuryAroma
+# This file is distributed under the same license as the WooCommerce Minimum Order Amount plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Minimum Order Amount 1.0.0\n"
+"Report-Msgid-Bugs-To: https://luxuryaroma.com/\n"
+"POT-Creation-Date: 2026-08-19 10:04:00+00:00\n"
+"PO-Revision-Date: 2026-08-19 10:04:00+02:00\n"
+"Last-Translator: LuxuryAroma <info@luxuryaroma.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: adsister-wc-minimum-order-amount\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Minimum Order Amount"
+msgstr "Мінімальна сума замовлення WooCommerce"
+
+#. Description of the plugin
+msgid "Enforces a minimum order amount (calculated with taxes, excluding shipping) with dynamic cart, checkout, and mini-cart notifications and AJAX recalculation support."
+msgstr "Обмежує мінімальну суму замовлення (розраховується з податками, без доставки) з динамічними сповіщеннями у кошику, на сторінці оформлення та у міні-кошику з підтримкою AJAX-перерахунку."
+
+#. Author of the plugin
+msgid "LuxuryAroma"
+msgstr "LuxuryAroma"
+
+#: adsister-wc-minimum-order-amount.php:121
+msgid "Settings"
+msgstr "Налаштування"
+
+#: adsister-wc-minimum-order-amount.php:136
+msgid "WooCommerce Minimum Order Amount requires WooCommerce to be installed and active."
+msgstr "Для роботи плагіна WooCommerce Minimum Order Amount необхідно встановити та активувати WooCommerce."
+
+#: includes/class-adsister-wc-moa-calculator.php:116
+#: includes/admin/class-adsister-wc-settings-moa.php:73
+msgid "Minimum order amount is {min_amount} (including taxes, excluding shipping). Your current qualifying total is {current_amount}. Please add {remaining_amount} more to proceed."
+msgstr "Мінімальна сума замовлення становить {min_amount} (з урахуванням податків, без доставки). Ваша поточна сума: {current_amount}. Будь ласка, додайте товарів ще на {remaining_amount}, щоб оформити замовлення."
+
+#: includes/class-adsister-wc-moa-frontend.php:57
+msgid "Minimum order amount is not met. Please return to cart and add more items."
+msgstr "Мінімальну суму замовлення не досягнуто. Будь ласка, поверніться до кошика та додайте ще товарів."
+
+#: includes/admin/class-adsister-wc-settings-moa.php:26
+#: includes/admin/class-adsister-wc-settings-moa.php:54
+msgid "Minimum Order Amount"
+msgstr "Мінімальна сума замовлення"
+
+#: includes/admin/class-wc-settings-moa.php:41
+msgid "Minimum Order Amount Configuration"
+msgstr "Конфігурація мінімальної суми замовлення"
+
+#: includes/admin/class-adsister-wc-settings-moa.php:43
+msgid "Configure the minimum order threshold required for customers to place orders. The calculation includes taxes and discounts, but excludes shipping costs."
+msgstr "Налаштуйте мінімальний поріг замовлення, необхідний для оформлення покупки. Розрахунок включає податки та знижки, але не включає вартість доставки."
+
+#: includes/admin/class-adsister-wc-settings-moa.php:47
+msgid "Enable Minimum Order Limit"
+msgstr "Увімкнути обмеження мінімального замовлення"
+
+#: includes/admin/class-adsister-wc-settings-moa.php:48
+msgid "Enforce a minimum order requirement before customers can proceed to checkout."
+msgstr "Вимагати досягнення мінімальної суми замовлення для переходу до оформлення."
+
+#: includes/admin/class-adsister-wc-settings-moa.php:57
+msgid "Minimum order subtotal + taxes (excluding shipping) in %s. Set to 0 to disable."
+msgstr "Мінімальна сума замовлення + податки (без доставки) у %s. Вкажіть 0, щоб вимкнути."
+
+#: includes/admin/class-adsister-wc-settings-moa.php:70
+msgid "Include Fees in Total"
+msgstr "Враховувати додаткові збори у сумі"
+
+#: includes/admin/class-adsister-wc-settings-moa.php:71
+msgid "Include custom cart/order fees (with their taxes) in the qualifying minimum order total."
+msgstr "Включати додаткові збори та комісії кошика (разом із податками на них) у розрахунок мінімальної суми."
+
+#: includes/admin/class-adsister-wc-settings-moa.php:77
+msgid "Notification Message"
+msgstr "Текст сповіщення"
+
+#: includes/admin/class-adsister-wc-settings-moa.php:78
+msgid "Available dynamic placeholders:<br><code>{min_amount}</code> — Required minimum threshold<br><code>{current_amount}</code> — Current qualifying order total<br><code>{remaining_amount}</code> — Amount remaining to reach minimum"
+msgstr "Доступні динамічні теги:<br><code>{min_amount}</code> — Необхідна мінімальна сума<br><code>{current_amount}</code> — Поточна сума замовлення<br><code>{remaining_amount}</code> — Залишок до мінімальної суми"

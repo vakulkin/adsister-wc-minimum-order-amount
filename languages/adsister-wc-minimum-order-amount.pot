@@ -1,0 +1,86 @@
+# Copyright (C) 2026 LuxuryAroma
+# This file is distributed under the same license as the WooCommerce Minimum Order Amount plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Minimum Order Amount 1.0.0\n"
+"Report-Msgid-Bugs-To: https://luxuryaroma.com/\n"
+"POT-Creation-Date: 2026-08-19 10:04:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: adsister-wc-minimum-order-amount\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Minimum Order Amount"
+msgstr ""
+
+#. Description of the plugin
+msgid "Enforces a minimum order amount (calculated with taxes, excluding shipping) with dynamic cart, checkout, and mini-cart notifications and AJAX recalculation support."
+msgstr ""
+
+#. Author of the plugin
+msgid "LuxuryAroma"
+msgstr ""
+
+#: adsister-wc-minimum-order-amount.php:121
+msgid "Settings"
+msgstr ""
+
+#: adsister-wc-minimum-order-amount.php:136
+msgid "WooCommerce Minimum Order Amount requires WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/class-adsister-wc-moa-calculator.php:116
+#: includes/admin/class-adsister-wc-settings-moa.php:73
+msgid "Minimum order amount is {min_amount} (including taxes, excluding shipping). Your current qualifying total is {current_amount}. Please add {remaining_amount} more to proceed."
+msgstr ""
+
+#: includes/class-adsister-wc-moa-frontend.php:57
+msgid "Minimum order amount is not met. Please return to cart and add more items."
+msgstr ""
+
+#: includes/admin/class-adsister-wc-settings-moa.php:26
+#: includes/admin/class-adsister-wc-settings-moa.php:54
+msgid "Minimum Order Amount"
+msgstr ""
+
+#: includes/admin/class-wc-settings-moa.php:41
+msgid "Minimum Order Amount Configuration"
+msgstr ""
+
+#: includes/admin/class-adsister-wc-settings-moa.php:43
+msgid "Configure the minimum order threshold required for customers to place orders. The calculation includes taxes and discounts, but excludes shipping costs."
+msgstr ""
+
+#: includes/admin/class-adsister-wc-settings-moa.php:47
+msgid "Enable Minimum Order Limit"
+msgstr ""
+
+#: includes/admin/class-adsister-wc-settings-moa.php:48
+msgid "Enforce a minimum order requirement before customers can proceed to checkout."
+msgstr ""
+
+#: includes/admin/class-adsister-wc-settings-moa.php:57
+msgid "Minimum order subtotal + taxes (excluding shipping) in %s. Set to 0 to disable."
+msgstr ""
+
+#: includes/admin/class-adsister-wc-settings-moa.php:70
+msgid "Include Fees in Total"
+msgstr ""
+
+#: includes/admin/class-adsister-wc-settings-moa.php:71
+msgid "Include custom cart/order fees (with their taxes) in the qualifying minimum order total."
+msgstr ""
+
+#: includes/admin/class-adsister-wc-settings-moa.php:77
+msgid "Notification Message"
+msgstr ""
+
+#: includes/admin/class-adsister-wc-settings-moa.php:78
+msgid "Available dynamic placeholders:<br><code>{min_amount}</code> — Required minimum threshold<br><code>{current_amount}</code> — Current qualifying order total<br><code>{remaining_amount}</code> — Amount remaining to reach minimum"
+msgstr ""

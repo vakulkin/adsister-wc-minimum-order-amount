@@ -1,0 +1,15 @@
+/**
+ * Adsister WooCommerce Minimum Order Amount - Checkout Button Styles
+ */
+
+/* Disabled Final Checkout Place Order Button */
+#place_order.adsister-wc-moa-btn-disabled,
+button#place_order.adsister-wc-moa-btn-disabled,
+form.checkout #place_order.adsister-wc-moa-btn-disabled,
+.woocommerce-checkout #place_order.adsister-wc-moa-btn-disabled {
+	opacity: 0.55 !important;
+	cursor: not-allowed !important;
+	pointer-events: none !important;
+	filter: grayscale(50%);
+	position: relative;
+}
